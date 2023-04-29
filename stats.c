@@ -9,17 +9,15 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief The file has the definition for stats.h
  *
- * <Add Extended Description Here>
+ * This file has definitions to compute the various stats on a given data
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Manikandan Arumugam
+ * @date 04/29/2023
  *
  */
-
-
 
 #include <stdio.h>
 #include "stats.h"
@@ -27,7 +25,7 @@
 /* Size of the Data Set */
 #define SIZE (40)
 
-void main() {
+int main() {
 
   unsigned char test[SIZE] = { 34, 201, 190, 154,   8, 194,   2,   6,
                               114, 88,   45,  76, 123,  87,  25,  23,
@@ -38,6 +36,40 @@ void main() {
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
 
+  return 0;
 }
 
-/* Add other Implementation File Code Here */
+void print_statistics(unsigned char *dataset_ptr)
+{
+
+}
+
+void print_array(unsigned char *dataset_ptr, unsigned size)
+{
+
+}
+
+unsigned int find_median(unsigned char *dataset_ptr, unsigned int size)
+{
+  return 0;
+}
+
+unsigned int find_mean(unsigned char *dataset_ptr, unsigned int size)
+{
+  return 0;
+}
+
+unsigned int find_maximum(unsigned char *dataset_ptr, unsigned int size)
+{
+  return 0;
+}
+
+unsigned int find_minimum(unsigned char *dataset_ptr, unsigned int size)
+{
+  return 0;
+}
+
+unsigned int sort_array(unsigned char *dataset_ptr, unsigned int size)
+{
+  return 0;
+}
