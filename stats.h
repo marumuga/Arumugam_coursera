@@ -21,8 +21,6 @@
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
-
 /**
  * @brief Print the statistics for given array
  *
@@ -33,13 +31,13 @@
  * 
  * @return void
  */
-void print_statistics(unsigned char *dataset_ptr);
+void print_statistics(unsigned char *dataset_ptr, unsigned int size);
 
 /**
- * @brief Print the statistics for given array
+ * @brief Print the array to screen
  *
  * This function takes as an input a unsigned char array and unsigned int size of the array.
- * This functional will print the statistics of the array based on the size including minimum, maximum, mean, and median in a readable format
+ * This functional will print the given array to screen
  * 
  * @param dataset_ptr unsigned char array to be stats printed
  * @param size unsigned int size of the array
